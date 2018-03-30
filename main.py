@@ -103,8 +103,7 @@ def check_bitbucket():
 	compare_versions(local_ver, latest_ver, rel_notes)
 
 def compare_versions(local_ver, latest_ver, rel_notes=None):
-	print '\nLocally installed version:'
-	print local_ver
+	print '\nLocally installed version: ' + local_ver
 	print 'Latest available version: ' + latest_ver
 	if str(local_ver) != str(latest_ver):
 		print 'Release notes: ' + rel_notes
