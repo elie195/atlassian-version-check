@@ -113,6 +113,7 @@ def output_title(title):
 	print title + ':'
 
 def main():
+	print ''
 	check_confluence()
 	print ''
 	check_bamboo()
